@@ -1,11 +1,11 @@
 [project]
 name = "cpet-142-final-project"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-    { name = "Flet developer", email = "you@example.com" }
+    { name = "Group 6 - CpET 142 - Computer Programming 2", email = "25-33982@g.batstate-u.edu.ph" }
 ]
 dependencies = [
     "flet>=0.84.0"
@@ -19,10 +19,10 @@ dev = [
 ]
 
 [tool.flet]
-org = "com.mycompany"
+org = "Batangas State University - The National Engineering University - Lipa Campus"
 product = "cpet-142-final-project"
-company = "Flet"
-copyright = "Copyright (C) 2023-2026 by Flet"
+company = "Group 6 - CpET 142 - Computer Programming 2"
+copyright = "Copyright (C) 2023-2026 by Group 6 Batch 2025-2026, Batangas State University - The National Engineering University - Lipa Campus. All rights reserved."
 
 [tool.flet.app]
 path = "src"
