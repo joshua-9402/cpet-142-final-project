@@ -20,8 +20,8 @@ output = ""
 
 with open("test.txt", "r") as test:
     for line in test.readlines():
-
         redacted_text = line
+
         for pattern, placeholder in REDACTION_MAP.items():
             redacted_text = re.sub(pattern, placeholder, redacted_text)
 
